@@ -1,0 +1,46 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "justinmko.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "build": "webpack -p --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinko43/personal-website.git"
+  },
+  "author": "Justin Ko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinko43/personal-website/issues"
+  },
+  "homepage": "https://github.com/justinko43/personal-website#readme",
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "copy-webpack-plugin": "^4.3.1",
+    "css-loader": "^0.28.9",
+    "file-loader": "^1.1.6",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^2.30.1",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "moment": "^2.20.1",
+    "path": "^0.12.7",
+    "react-dom": "^16.2.0",
+    "react-router": "^3.0.0",
+    "serve-favicon": "^2.4.5",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  }
+}
