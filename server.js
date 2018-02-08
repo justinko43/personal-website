@@ -6,7 +6,7 @@ const favicon = require('serve-favicon');
 const SERVER_PORT = process.env.port || 3000;
 const app = express();
 
-app.use(favicon(path.resolve(__dirname, '/build/assets/images', 'favicon.ico')));
+// app.use(favicon(path.resolve(__dirname, '/build/assets/images', 'favicon.ico')));
 app.use('/build', express.static(path.resolve(__dirname, '/build')));
 
 app.get('*', (req, res) => {
