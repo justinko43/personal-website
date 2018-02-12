@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
+import logo from '../../assets/Untitled.svg';
+
 const Navbar = () => (
   <div id="navBar">
     <div id="logo-container">
-      <img src="../../assets/logo.svg" />
+      <img src={logo} />
     </div>
     <nav>
       <ul>
