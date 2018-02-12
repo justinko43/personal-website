@@ -1,4 +1,4 @@
-// import './styles/app.less';
+import './styles/app.less';
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
