@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
-import logo from '../../assets/Untitled.svg';
+import logo from '../../assets/logo.svg';
 
-const Navbar = () => (
+const Navbar = (props) => (
   <div id="navBar">
     <div id="logo-container">
-      <img src={logo} />
+      <a href="#" onClick={props.onLogoClick}><img src={logo} /></a>
     </div>
     <nav>
       <ul>
         <span>
-          <li className="hide-nav-link"><a href="">Work</a></li>
-          <li className="hide-nav-link"><a href="">Writing</a></li>
-          <li className="hide-nav-link"><a href="">Contact</a></li>
+          <li className="hide-nav-link"> <a href="#" onClick={props.onWorkClick}>Work </a></li>
+          <li className="hide-nav-link"> <a href="#" onClick={props.onWritingClick}>Writing</a></li>
+          <li className="hide-nav-link"> <a href="#" onClick={props.onContactClick}>Contact</a></li>
         </span>
       </ul>
     </nav>

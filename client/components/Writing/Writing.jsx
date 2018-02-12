@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
-
-const About = () => (
+const Writing = () => (
   <div>
-    Justin Ko
+    blog posts
   </div>
-)
+);
 
-export default About;
+export default Writing;
