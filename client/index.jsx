@@ -7,7 +7,7 @@ import Container from './components/Container.jsx';
 
 class Main extends Component {
   render() {
-    return (<Container />)
+    return <Container />
   }
 }
 
