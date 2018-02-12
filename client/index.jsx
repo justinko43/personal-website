@@ -7,6 +7,8 @@ import Container from './components/Container.jsx';
 
 class Main extends Component {
   render() {
-    <Container />, document.getElementById('root');
+    return (<Container />)
   }
 }
+
+render(<Main />, document.getElementById('root'));
