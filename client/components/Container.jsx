@@ -62,7 +62,9 @@ class Container extends Component {
         />
         {this.displayBody()}
         <div id="footer">
-          &copy; Copyright {currentYear} Justin Ko. View the code for this website on <a href="https://github.com/justinko43/personal-website"> Github </a>
+          <small>
+            &copy; Copyright {currentYear} Justin Ko. View the code for this website on <a target="_blank" href="https://github.com/justinko43/personal-website">Github</a>
+          </small>
         </div>
       </div>
     )
