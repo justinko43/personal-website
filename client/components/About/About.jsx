@@ -4,15 +4,16 @@ import Typist from 'react-typist';
 import TypistLoop from 'react-typist-loop';
 
 const About = () => (
-  <div>
-    <h2>Justin Ko</h2>
-    {/* <TypistLoop>
-      {[
-        'Entrepreneur',
-        'Full-Stack Engineer',
-        '(Future) Shiba Owner',
-      ].map(text => <Typist key={text} startDelay={1000}>{text}</Typist>)}
-    </TypistLoop> */}
+  <div id="about" className="center-content">
+    <h1 className="allerta">Hi my name <br/> is Justin and I am a
+    <TypistLoop>
+        {[
+          'Entrepreneur',
+          'Full-Stack Engineer',
+          '(Future) Shiba Owner',
+        ].map(text => <Typist key={text} startDelay={1000}>{text}</Typist>)}
+      </TypistLoop>
+    </h1>
   </div>
 )
 
