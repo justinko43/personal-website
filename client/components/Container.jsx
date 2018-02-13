@@ -50,7 +50,6 @@ class Container extends Component {
     this.setState({ display: 'writing' });
   }
   
-
   render() {
     return (
       <div id="container">
