@@ -61,7 +61,7 @@ class Container extends Component {
           onWritingClick={this.onWritingClick}
         />
         {this.displayBody()}
-        <div id="footer">
+        <div id="footer" className="center-content">
           <small>
             &copy; Copyright {currentYear} Justin Ko. View the code for this website on <a target="_blank" href="https://github.com/justinko43/personal-website">Github</a>
           </small>
