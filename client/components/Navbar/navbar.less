@@ -1,40 +1,27 @@
 #navbar {
-  // height: 65px;
   flex-direction: column;
-  // #logo-container {
-  //   width: 185px;
-  //   height: inherit;
-  // }
-  // #logo-container {
-    // margin-top: 5px;
-  // }
 
   #navigation {
-    // position: relative;
-    // display: flex;
-    // right: 0;
-    display: table;
-    ul {
-      list-style: none;
-      font-size: 16px;
-      // display: flex;
-      .animate {
-        display: inline-block;
-        &:extend(.margin-right-m);
-      }
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    .animate {
+      display: inline-block;
+      &:extend(.margin-right-lg);
+      &:extend(.margin-left-lg);
+    }
 
-      .animate::after {
-        content: '';
-        display: block;
-        width: 0;
-        height: 2px;
-        background: #000;
-        transition: width .3s;
-      }
-      
-      .animate:hover::after {
-        width: 100%;
-      }
+    .animate::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: #000;
+      transition: width .3s;
+    }
+    
+    .animate:hover::after {
+      width: 100%;
     }
   }
 }
