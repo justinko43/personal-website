@@ -29,16 +29,22 @@ const projects = [
 ]
 
 const Work = () => (
-  projects.map((project, i) => 
-    <Project 
-      key={`instruction-${i}`}
-      title={project.title}
-      description={project.description}
-      stack={project.stack}
-      github={project.github}
-      demo={project.demo}
-    />
-  )
+  <div id="work" className="padding-lg center-content">
+  <h1 className="allerta">A lovely selection of work</h1>
+  <div id="project-wrapper" className="margin-top-lg">
+    {
+    projects.map((project, i) => 
+      <Project 
+        key={`instruction-${i}`}
+        title={project.title}
+        description={project.description}
+        stack={project.stack}
+        github={project.github}
+        demo={project.demo}
+      />
+    )}
+  </div>
+  </div>
 )
 
 export default Work;
