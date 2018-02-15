@@ -5,7 +5,7 @@ import TypistLoop from 'react-typist-loop';
 
 const About = () => (
   <div id="about" className="center-content">
-    <h1 className="allerta">Hi my name <br/> is Justin and I am
+    <h1 className="allerta margin-top-0">Hi my name <br/> is Justin and I am
     <TypistLoop>
         {[
           'an Entrepreneur',
