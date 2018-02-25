@@ -10,6 +10,7 @@ const About = () => (
         {[
           'an Entrepreneur',
           'a Full-Stack Engineer',
+          'a Blockchain Enthusiast',
           'a (Future) Shiba Owner',
         ].map(text => <Typist key={text} startDelay={1000}>{text}</Typist>)}
       </TypistLoop>
