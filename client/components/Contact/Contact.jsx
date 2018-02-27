@@ -10,8 +10,8 @@ import twitter from '../../assets/twitter.svg';
 
 const Contact = () => (
   <div id="contact" className="center-content">
-    <div id="inner-contact">
-    <h1 align="left" className="margin-top-0 allerta margin-bottom-lg">Get in touch!</h1>
+    <div id="inner-contact" className="padding-lg">
+      <h1 className="allerta margin-bottom-xl">Get in touch!</h1>
       <div className="margin-bottom-lg">
         Got a project you would like me to work on? Or how about just a friendly chat? 
         Give me an email and we can grab some good coffee.

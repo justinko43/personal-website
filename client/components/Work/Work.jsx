@@ -49,7 +49,9 @@ const projects = [
 
 const Work = () => (
   <div id="work" className="padding-lg center-content">
+    <div>
     <h1 className="allerta">A lovely selection of work</h1>
+    </div>
     <div id="project-wrapper" className="margin-top-lg">
       {
       projects.map((project, i) => 
