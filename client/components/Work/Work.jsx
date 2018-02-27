@@ -11,6 +11,7 @@ const projects = [
     stack: 'Angular, Node, Express, Firebase',
     github: '',
     demo: 'https://speak-genius.firebaseapp.com/',
+    directory: '../../assets/sg_icon_512.png',
   },
   {
     title: 'PeerConnect',
@@ -18,6 +19,7 @@ const projects = [
     stack: 'WebRTC, Websockets, WebTorrent, ',
     github: 'https://github.com/PeerConnect/peer-connect',
     demo: 'http://peer-connect.io/',
+    directory: '../../assets/sg_icon_512.png',
   },
   {
     title: 'PastChat',
@@ -25,6 +27,7 @@ const projects = [
     stack: '',
     github: '',
     demo: '',
+    directory: '../../assets/sg_icon_512.png',
   },
   {
     title: "Pete's Memory Palace",
@@ -32,6 +35,7 @@ const projects = [
     stack: '',
     github: '',
     demo: '',
+    directory: '../../assets/sg_icon_512.png',
   },
   {
     title: 'Git Visual',
@@ -39,6 +43,7 @@ const projects = [
     stack: '',
     github: '',
     demo: '',
+    directory: '../../assets/sg_icon_512.png',
   }
 ]
 
