@@ -3,8 +3,22 @@
   width: 85%;
   flex-direction: column;
 
-  h1 {
-    font-size: 80px;
-    width: 85%;
+  @media (min-width: 400px) {
+    h1 {
+      width: 85%;      
+      font-size: 3em;
+    }
+  }
+  @media (min-width: 500px) {
+    h1 {
+      width: 85%;      
+      font-size: 4em;
+    }
+  }
+  @media (min-width: 900px) {
+    h1 {
+      width: 85%;      
+      font-size: 5em;
+    }
   }
 }
