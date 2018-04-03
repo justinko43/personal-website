@@ -1,45 +1,49 @@
 #work {
   flex-direction: column;
-  width: 45%;
+  width: 55%;
+
   #project-wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;  
 
     .project {
-      // background-color: green;
       height: 200px;
       padding: 15px;      
       margin: 0 0 8px 0;
       background-clip:padding-box;      
       border-bottom: 2px black solid;
-      justify-content: center;      
-      -webkit-transition: .3s ease-in-out;
-      transition: .3s ease-in-out;
+      display: flex;
+      align-content: center;
+      position: relative;
+
+      .front {
+        justify-content: space-between;
+      }
+
+      .overlay {
+        position: absolute;        
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+        background-color: green;        
+        // display: none;
+        transition: .5s ease;        
+      }
     }
 
-    #project-0 {
-      width: calc(100%);
+    .project:hover{
+      .overlay {
+        opacity: 0.95
+      }
     }
-    #project-1 {
-      width: calc(66.6666% - 1px);
-    }
-    #project-2 {
-      width: calc(33.3333% - 1px);
-    }
-    #project-3 {
-      width: calc(50% - 1px);
-    }
-    #project-4 {
-      width: calc(50% - 1px);
-    }
-
-    .project:hover {
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
-    }
-    
   }
 }
