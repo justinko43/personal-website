@@ -7,6 +7,7 @@ import mail from '../../assets/mail.svg';
 import medium from '../../assets/medium.svg';
 import twitter from '../../assets/twitter.svg';
 
+
 const Contact = () => (
 	<div id="contact" className="center-content">
 		<div id="inner-contact" className="padding-lg">
