@@ -1,13 +1,21 @@
 #work {
   flex-direction: column;
-  width: 55%;
+
+  @media (min-width: 600px) {
+    width: 70%
+  }
+  @media (min-width: 800px) {
+    width: 65%
+  }
+  @media (min-width: 1000px) {
+    width: 55%
+  }
 
   #project-wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;  
 
     .project {
       height: 200px;
@@ -15,12 +23,31 @@
       margin: 0 0 8px 0;
       background-clip:padding-box;      
       border-bottom: 2px black solid;
-      display: flex;
       align-content: center;
       position: relative;
 
       .front {
-        justify-content: space-between;
+        justify-content: space-around;
+
+        img {
+          width: 125px;
+          border-radius: 50%;
+          border:solid #000;
+          border-width: 1px 1px;
+        }
+
+        .work-description {
+          padding-left: 20px;
+          width: 300px;
+          align-items: flex-start;
+          flex-wrap: wrap;
+          flex-direction: column;
+        
+          h4 {
+            margin-top: 0;
+            margin-bottom: 10px;
+          }
+        }
       }
 
       .overlay {
