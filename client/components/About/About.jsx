@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import Typist from 'react-typist';
 import TypistLoop from 'react-typist-loop';
 
+
 const About = () => (
   <div id="about" className="center-content">
     <h1 className="allerta margin-top-0">Hi my name <br/> is Justin and I am
